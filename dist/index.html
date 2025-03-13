@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-green-700">Plant House Store </div>
+
+            <div class="space-x-4">
+                <a href="#" class="text-gray-600 hover:text-green-700"><i class="fas fa-search"></i></a>
+                <a href=".login.html" class="text-gray-600 hover:text-green-700"><i class="fas fa-user"></i></a>
+                <a href="#" class="text-gray-600 hover:text-green-700"><i class="fas fa-heart"></i></a>
+                <a href="#" class="text-gray-600 hover:text-green-700"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class=" py-16 bg-[url(../Assist/image/Cactus.jpg)] bg-cover">
+        <div class="container mx-auto px-4 text-center ">
+            <h1 class="text-4xl font-bold text-gray-800 ">Products</h1>
+            <p class="text-gray-600 mt-2">Home > Products</p>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-4 py-8">
+        <div class="flex justify-between items-center mb-8">
+
+            <div class="flex space-x-4">
+                <select class="px-4 py-2 bg-gray-200 text-gray-600 rounded">
+                    <option>Indor Plant</option>
+                    <option>Outdoor Plant</option>
+                    <option>Flower Plant</option>
+                    <option>Bonsai</option>
+                    <option>Fruit</option>
+
+                </select>
+
+                <select class="px-4 py-2 bg-gray-200 text-gray-600 rounded">
+                    <option>With Pot</option>
+                    <option>Without Pot</option>
+                </select>
+                <select class="px-4 py-2 bg-gray-200 text-gray-600 rounded">
+                    <option>100 > 500</option>
+                    <option>600 > 1000</option>
+                    <option>1000 > 5000</option>
+                </select>
+                <select class="px-4 py-2 bg-gray-200 text-gray-600 rounded">
+                    <option>Discount 10%</option>
+                    <option>Discount 20%</option>
+                    <option>Discount 50%</option>
+                    <option>Discount 80%</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div class="text-center object-cover">
+                <img src="/Assist/Image/aglonema.jpg" alt="Aglaonema Crete" class="h-50 w-50">
+                <h2 class="mt-4 text-lg font-medium">Aglaonema Crete</h2>
+                <p class="text-gray-500 line-through">100.00</p>
+                <p class="text-green-700">Price 400.00 </p>
+                <div class="flex justify-center ">
+
+                    <a href="" class="px-4 border-yellow-300 "><i class="fa-regular fa-heart"></i></a>
+                    <a href="" class="px-4">
+                        <p>BUY</p>
+                    </a>
+                </div>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/aglonima-white.jpg" alt="Aglaonema Stripes" class="h-50 w-50 object-cover ">
+                <h2 class="mt-4 text-lg font-medium">Aglaonema Evergreen </h2>
+                <p class="text-gray-500 line-through">100.00</p>
+                <p class="text-green-700">Price 500</p>
+            </div>
+            <div class="text-center">
+                <a href=""><img src="/Assist/Image/Calatheas.jpg" alt="Blue Star Fern" class="mx-auto"></a>
+                <h2 class="mt-4 text-lg font-medium">Calathea White</h2>
+                <p class="text-green-700">Price 400</p>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/Monstera.jpg" alt="Calathea Lancifolia" class="mx-auto">
+                <h2 class="mt-4 text-lg font-medium">Monstera</h2>
+                <p class="text-green-700">Price 500.00</p>
+            </div>
+            <div class="text-center relative">
+                <img src="/Assist/Image/anthuriyamplant.jpg" alt="" class="mx-auto">
+                <span class="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded">-30%</span>
+                <h2 class="mt-4 text-lg font-medium">Anthuriyam Pink</h2>
+                <p class="text-gray-500 line-through">500.00</p>
+                <p class="text-green-700">Price 850.00</p>
+            </div>
+            <div class="text-center relative">
+                <img src="/Assist/Image/luckybamboo.jpg" alt="" class="mx-auto">
+                <span class="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded">-70%</span>
+                <h2 class="mt-4 text-lg font-medium">Lucky Bamboo</h2>
+                <p class="text-gray-500 line-through">50.00</p>
+                <p class="text-green-700">Price 150.00</p>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/aricapalm.jpg">
+                <h2 class="mt-4 text-lg font-medium">Arica Palm</h2>
+                <p class="text-green-700">Price 500.00</p>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/moneyplant.jpg">
+                <h2 class="mt-4 text-lg font-medium">Money Plant</h2>
+                <p class="text-green-700">Price 300.00</p>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/peruplant.jpg">
+                <h2 class="mt-4 text-lg font-medium">Piru Plant</h2>
+                <p class="text-gray-500 line-through">100.00</p>
+                <p class="text-green-700">Price 750.00</p>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/roseplant.jpg">
+                <h2 class="mt-4 text-lg font-medium">Rose Plant</h2>
+                <p class="text-gray-500 line-through">80.00</p>
+                <p class="text-green-700">Price 450.00</p>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/adenium.jpg">
+                <h2 class="mt-4 text-lg font-medium">Adenium Plant</h2>
+                <p class="text-gray-500 line-through">350.00</p>
+                <p class="text-green-700">Price 30.00</p>
+            </div>
+            <div class="text-center">
+                <img src="/Assist/Image/poinsettia.jpg">
+                <h2 class="mt-4 text-lg font-medium">Poinsettia Red</h2>
+                <p class="text-gray-500 line-through">700.00</p>
+                <p class="text-green-700">400.00</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-8">
+            <button class="px-4 py-2 bg-green-700 text-white rounded">1</button>
+            <button class="px-4 py-2 bg-gray-200 text-gray-600 rounded">2</button>
+        </div>
+    </section>
+
+    <footer class="bg-white py-8">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-lg font-bold text-green-700">Plant House</h3>
+                <p class="mt-4">Subscribe our newsletter and get discount 30% off</p>
+                <div class="mt-8 flex">
+                    <input type="email" placeholder="Your email address"
+                        class="px-4 w-28 py-2 border border-gray-300 rounded-l">
+                    <button class="px-4 py-2  bg-green-700 text-white rounded-r">Subscribe</button>
+                </div>
+                <div class="mt-4 flex space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-green-700 text-xl"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-green-700 text-xl"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-green-700 text-xl"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-green-700">Customer Care</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Pagination</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Home page</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Contact</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Accessories</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Terms of use</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-green-700">Quick Shop</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">About Us</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Privacy Policy</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Terms & Conditions</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Products Return</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Wholesale Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-green-700">Company</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Help Center</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Address Store</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Privacy Policy</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Receivers & Amplifiers</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-green-700">Plant House Store</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 text-center text-gray-600">
+            <p>&copy; Copyright 2022 | PlanthouseStore </p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

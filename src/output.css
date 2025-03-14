@@ -412,6 +412,9 @@
   .bg-\[url\(\.\.\/Assist\/Image\/Cactus\.jpg\)\] {
     background-image: url(../Assist/Image/Cactus.jpg);
   }
+  .bg-\[url\(\.\.\/Assist\/Image\/loging-bg\.jpg\)\] {
+    background-image: url(../Assist/Image/loging-bg.jpg);
+  }
   .bg-\[url\(\.\.\/Assist\/image\/loging-bg\.jpg\)\] {
     background-image: url(../Assist/image/loging-bg.jpg);
   }

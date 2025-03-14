@@ -18,12 +18,21 @@
 </head>
 
 <body class="bg-white text-gray-800">
-    <header class="bg-white shadow">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold text-green-700">Plant House Store </div>
+    <header class="bg-white shadow ">
+        <div class="container mx-auto px-4 py-4 sm:flex sm:justify-between sm:items-center ">
+            <div class="text-2xl font-bold text-green-700 ">Plant House Store </div>
+            <div>
 
-            <div class="space-x-4">
-                <a href="#" class="text-gray-600 hover:text-green-700"><i class="fas fa-search"></i></a>
+                <input id="searchBar" type="search" id="search " placeholder="Anthuriyam plant "
+                    class="w-80 p-3 placeholder:font-bold border-2 rounded-3xl">
+
+            </div>
+
+
+            <div class=" space-x-4 sm:overflow-hidden fixed bottom-0 bg-blue-50 w-full h-20 **:text-4xl flex
+                    items-center justify-evenly ">
+
+                <a href=" #" class=" text-gray-600 hover:text-green-700"><i class="fas fa-search"></i></a>
                 <a href="./dist/login.html" class="text-gray-600 hover:text-green-700"><i class="fas fa-user"></i></a>
                 <a href="#" class="text-gray-600 hover:text-green-700"><i class="fas fa-heart"></i></a>
                 <a href="#" class="text-gray-600 hover:text-green-700"><i class="fas fa-shopping-cart"></i></a>
@@ -31,15 +40,16 @@
         </div>
     </header>
 
-    <section class=" py-16 bg-[url(./Assist/image/Cactus.jpg)] bg-cover">
+    <section class=" py-16 bg-[url(../Assist/Image/Cactus.jpg)] bg-cover">
         <div class="container mx-auto px-4 text-center ">
             <h1 class="text-4xl font-bold text-gray-800 ">Products</h1>
             <p class="text-gray-600 mt-2">Home > Products</p>
         </div>
     </section>
 
-    <section class="container mx-auto px-4 py-8">
-        <div class="flex justify-between items-center mb-8">
+
+    <section class="container mx-auto px-4 py-8 ">
+        <div class="flex sm:justify-between sm:items-center mb-8">
 
             <div class="flex space-x-4">
                 <select class="px-4 py-2 bg-gray-200 text-gray-600 rounded">
@@ -70,7 +80,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1  sm:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1  sm:grid-cols-4 gap-8 *:flex *:flex-col *:items-center">
             <div class="text-center  ">
                 <img src="./Assist/Image/aglonema.jpg" alt="Aglaonema Crete" class="max-h-50 w-50">
                 <h2 class="mt-4 text-lg font-medium">Aglaonema Crete</h2>
@@ -78,7 +88,7 @@
                 <p class="text-green-700">Price 400.00 </p>
                 <div class="flex justify-center ">
 
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i> Add To
                         Cart</a>
 
@@ -90,7 +100,7 @@
                 <p class="text-gray-500 line-through">100.00</p>
                 <p class="text-green-700">Price 500</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -100,9 +110,10 @@
             <div class="text-center">
                 <a href=""><img src="./Assist/Image/Calatheas.jpg" alt="Blue Star Fern" class="max-h-50 w-50"></a>
                 <h2 class="mt-4 text-lg font-medium">Calathea White</h2>
+                <p class="text-gray-500 line-through">100.00</p>
                 <p class="text-green-700">Price 400</p>
                 <div class="flex justify-center items-end ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -112,35 +123,36 @@
             <div class="text-center">
                 <img src="./Assist/Image/Monstera.jpg" alt="Calathea Lancifolia" class="max-h-50 w-50">
                 <h2 class="mt-4 text-lg font-medium">Monstera</h2>
+                <p class="text-gray-500 line-through">100.00</p>
                 <p class="text-green-700">Price 500.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
                 </div>
             </div>
-            <div class="text-center relative">
+            <div class="text-center relative -z-10">
                 <img src="./Assist/Image/anthuriyamplant.jpg" alt="" class="max-h-50 w-50">
                 <span class="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded">-30%</span>
                 <h2 class="mt-4 text-lg font-medium">Anthuriyam Pink</h2>
                 <p class="text-gray-500 line-through">500.00</p>
                 <p class="text-green-700">Price 850.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
                 </div>
             </div>
-            <div class="text-center relative">
+            <div class="text-center relative -z-10">
                 <img src="./Assist/Image/luckybamboo.jpg" alt="" class="max-h-50 w-50">
                 <span class="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded">-70%</span>
                 <h2 class="mt-4 text-lg font-medium">Lucky Bamboo</h2>
                 <p class="text-gray-500 line-through">50.00</p>
                 <p class="text-green-700">Price 150.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -149,9 +161,10 @@
             <div class="text-center">
                 <img src="./Assist/Image/aricapalm.jpg" class="max-h-50 w-50">
                 <h2 class="mt-4 text-lg font-medium">Arica Palm</h2>
+                <p class="text-gray-500 line-through">100.00</p>
                 <p class="text-green-700">Price 500.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -161,9 +174,10 @@
             <div class="text-center">
                 <img src="./Assist/Image/moneyplant.jpg" class="max-h-50 w-50">
                 <h2 class="mt-4 text-lg font-medium">Money Plant</h2>
+                <p class="text-gray-500 line-through">100.00</p>
                 <p class="text-green-700">Price 300.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -176,7 +190,7 @@
                 <p class="text-gray-500 line-through">100.00</p>
                 <p class="text-green-700">Price 750.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -189,7 +203,7 @@
                 <p class="text-gray-500 line-through">80.00</p>
                 <p class="text-green-700">Price 450.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -202,7 +216,7 @@
                 <p class="text-gray-500 line-through">350.00</p>
                 <p class="text-green-700">Price 30.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -215,7 +229,7 @@
                 <p class="text-gray-500 line-through">700.00</p>
                 <p class="text-green-700">400.00</p>
                 <div class="flex justify-center ">
-                    <a href="" class="p-2 font-bold  bg-green-700 rounded-lg"><i
+                    <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
                             class="fa-regular fa-heart font-bold"></i>
                         Add To
                         Cart</a>
@@ -282,6 +296,7 @@
         </div>
 
     </footer>
+    <script src="./dist/Script.js"> </script>
 </body>
 
 </html>

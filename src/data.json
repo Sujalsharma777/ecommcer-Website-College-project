@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Rose plant",
+    "price": 299,
+    "Discount": 10,
+    "type": "outdoor",
+    "image": "/111.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Adenium ",
+    "price": 599,
+    "Discount": 25,
+    "type": "outdoor",
+    "image": "/112.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Aglonima Red Queen",
+    "price": 399,
+    "Discount": 10,
+    "type": "indoor",
+    "image": "/113.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Aglonima White",
+    "price": 399,
+    "Discount": 10,
+    "type": "indoor",
+    "image": "/114.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Anthuriyam plant",
+    "price": 699,
+    "Discount": 10,
+    "type": "indoor",
+    "image": "/115.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Arica Palm",
+    "price": 299,
+    "Discount": 20,
+    "type": "indoor",
+    "image": "/116.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Clathiya plant",
+    "price": 699,
+    "Discount": 30,
+    "type": "indoor",
+    "image": "/117.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Lucky Bamboo plant",
+    "price": 299,
+    "Discount": 10,
+    "type": "indoor",
+    "image": "/118.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Money plant",
+    "price": 199,
+    "Discount": 10,
+    "type": "indoor",
+    "image": "/119.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Mostera plant",
+    "price": 1100,
+    "Discount": 40,
+    "type": "indoor",
+    "image": "/120.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Peru plant",
+    "price": 499,
+    "Discount": 10,
+    "type": "indoor",
+    "image": "/121.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Positya plant",
+    "price": 259,
+    "Discount": 10,
+    "type": "outdoor",
+    "image": "/122.jpg"
+  }
+]

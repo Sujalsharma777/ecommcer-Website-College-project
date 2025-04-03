@@ -36,7 +36,7 @@ This is a full-featured e-commerce web application that allows users to browse p
 
 4. Start the development server:
    ```sh
-   npm start
+   npm run dev
    ```
 
 5. Open the browser and visit:

@@ -41,7 +41,7 @@ This is a full-featured e-commerce web application that allows users to browse p
 
 5. Open the browser and visit:
    ```
-   http://localhost:3000
+   http://localhost:3000](https://plant-house-e-com.vercel.app/
    ```
 
 ## Deployment

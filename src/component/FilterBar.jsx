@@ -1,5 +1,6 @@
 import React from 'react'
-import datas from '../data.json'
+
+
 function Filtterbar() {
 
 
@@ -37,29 +38,7 @@ function Filtterbar() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1  sm:grid-cols-4 gap-8 *:flex *:flex-col *:items-center">
-                {datas.map(data => {
-                    return (
-                        <div class="text-center relative -z-10" key={data.id}>
-                            <img src={data.image} alt="" class="max-h-50 w-50" />
-                            <span class="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded">{data.Discount}%</span>
-                            <h2 class="mt-4 text-lg font-medium">{data.name}</h2>
-                            <p class="text-gray-500 line-through">{data.price}</p>
-                            <p class="text-green-700">Price {data.price} </p>
-                            <div class="flex justify-center gap-3">
-                                <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
-                                    class="fa-regular fa-heart font-bold"></i>
-                                    View</a>
-                                <a href="" class="p-2 font-bold  bg-green-600 rounded-lg my-3 hover:bg-green-500"><i
-                                    class="fa-regular fa-heart font-bold"></i>
-                                    Add To
-                                    Cart</a>
 
-                            </div>
-                        </div>
-                    )
-                })}
-            </div>
 
 
         </section >

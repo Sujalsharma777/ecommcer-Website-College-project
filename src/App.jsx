@@ -1,33 +1,36 @@
 import React, { useState } from "react";
 import Hearder from "./component/Header.jsx";
+import Home from "./pages/home.jsx";
+import Login from "./pages/Login.jsx";
+import Cart from "./pages/cart.jsx";
+import Order from "./pages/ordres.jsx";
 import Footer from "./component/Footer.jsx";
-import Productads from "./component/ProductAds.jsx";
-import Filter from "./component/FilterBar.jsx";
-import Productlist from "./component/PoductList.jsx"
-import { BrowserRouter, Routes, Route } from "react-router";
+import NewUser from "./pages/NewUser.jsx"
+
+import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import { Product } from "./pages/Product.jsx";
+import ProductDetail from "./component/ProductDetail.jsx";
 
 function App() {
-  const [search, setSearch] = useState("")
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Hearder setSearch={setSearch} />} />
-        </Routes>
-        <Routes>
-          <Route path="/" element={<Productads />} />
-        </Routes>
-        <Routes>
-          <Route path="/" element={<Filter />} />
-        </Routes>
-        <Routes>
-          <Route path="/" element={<Productlist search={search} />} />
-        </Routes>
-        <Routes>
-          <Route path="/" element={<Footer />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <Router>
+      <Hearder />
+
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+        <Route path="/Product" element={<Product />} />
+        <Route path="/ProductView:id" element={<ProductDetail />} />
+        <Route path="/Cart" element={<Cart />} />
+        <Route path="/Order" element={<Order />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/NewUser" element={<NewUser />} />
+
+
+      </Routes>
+
+    </Router>
   );
 }
 

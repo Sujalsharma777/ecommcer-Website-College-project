@@ -6,6 +6,9 @@ import Cart from "./pages/cart.jsx";
 import Order from "./pages/ordres.jsx";
 import Footer from "./component/Footer.jsx";
 import NewUser from "./pages/NewUser.jsx"
+import About from "./pages/About.jsx"
+import Contact from "./pages/Contact.jsx"
+import Page404 from "./pages/Page404.jsx"
 
 import { BrowserRouter as Router } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
@@ -26,10 +29,13 @@ function App() {
         <Route path="/Order" element={<Order />} />
         <Route path="/login" element={<Login />} />
         <Route path="/NewUser" element={<NewUser />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="*" element={<Page404 />} />
 
 
       </Routes>
-
+      <Footer />
     </Router>
   );
 }

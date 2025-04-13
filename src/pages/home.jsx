@@ -10,10 +10,11 @@ const Home = () => {
 
     return (
         <>
-            <ProductAds />
 
+            <ProductAds />
             <Productlist />
-            <Footer />
+
+
         </>
     );
 };

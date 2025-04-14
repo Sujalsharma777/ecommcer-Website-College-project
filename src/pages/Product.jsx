@@ -16,7 +16,7 @@ const ProductList = () => {
                 {latestArrived.map((data) => {
                     return (
 
-                        <div className="text-center relative shadow-gray-400 shadow-md rounded-2xl p-5 " key={data.id} >
+                        <div className="text-center relative shadow-gray-400 shadow-md rounded-2xl p-5 " key={data.index`   `} >
                             <img src={data.image} alt="" className="max-h-50 w-50 rounded-2xl" />
                             <span className="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded">
                                 {data.Discount}%

@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useReducer } from "react";
 import { useEffect } from "react";
 import axios from "axios";
-import data from "../data.json";
+import data from '../data.json';
 import reducer from "../Reducer/ProductReducer"
 const AppContext = createContext();
 const initialState = {

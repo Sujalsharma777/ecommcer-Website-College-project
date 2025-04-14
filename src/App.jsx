@@ -12,7 +12,7 @@ import Page404 from "./pages/Page404.jsx"
 
 import { BrowserRouter as Router } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
-import { Product } from "./pages/Product.jsx";
+import Product from "./pages/Product.jsx";
 import ProductDetail from "./component/ProductDetail.jsx";
 
 function App() {

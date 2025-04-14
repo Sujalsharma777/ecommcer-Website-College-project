@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router";
-import Data from '../data.json'
-
+import React from "react";
+import { NavLink } from "react-router";
+import Datass from '../data.json'
+import { useProductContext } from "../context/ProductContext"
 
 const ProductList = () => {
+    const { isLoading, latestArrived } = useProductContext();
+
 
 
     return (
@@ -13,10 +15,10 @@ const ProductList = () => {
             </div>
             <div className="my-5 m-10 grid grid-cols-1  sm:grid-cols-4 gap-8 *:flex *:flex-col *:items-center">
 
-                {Data.map((data) => {
+                {latestArrived.map((data) => {
                     return (
 
-                        <div className="text-center relative shadow-gray-400 shadow-md rounded-2xl p-5 " key={data.index} >
+                        <div className="text-center relative shadow-gray-400 shadow-md rounded-2xl p-5 " key={data.id} >
                             <img src={data.image} alt="" className="max-h-50 w-50 rounded-2xl" />
                             <span className="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded">
                                 {data.Discount}%

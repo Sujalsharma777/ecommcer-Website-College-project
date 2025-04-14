@@ -2,7 +2,7 @@ import React from 'react'
 
 const ordres = () => {
     return (
-        <div>ordres</div>
+        <div className='w-full h-lvh flex justify-center items-center'>order</div>
     )
 }
 

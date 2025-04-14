@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ProductAds from '../component/ProductAds'
-import Filtterbar from '../component/FilterBar'
-import Productlist from '../component/ProductList.jsx'
-import productData from '../data.json';
-import Footer from "../component/Footer.jsx";
+import Productlist from '../component/ProductLatestArrive.jsx'
+
+
 
 const Home = () => {
 
